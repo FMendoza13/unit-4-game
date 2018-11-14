@@ -9,7 +9,7 @@ var stone2 = Math.floor(Math.random() * 11 + 1);
 var stone3 = Math.floor(Math.random() * 11 + 1);
 var stone4 = Math.floor(Math.random() * 11 + 1);
 
-var totalScoreboard = 0;
+var currentScore = 0;
 var wins = 0;
 var losses = 0;
 
@@ -25,7 +25,7 @@ function reset() {
   stone3 = Math.floor(Math.random() * 11 + 1);
   stone4 = Math.floor(Math.random() * 11 + 1);
   userTotal = 0;
-  $("#totalScoreboard").text(userTotal);
+  $("#totalScoreboard").text(currentScore);
 }
 
 function excelsior() {
@@ -44,12 +44,48 @@ function endIsNear() {
 
 $(".stone1").on("click", function() {
   currentScore = currentScore + stone1;
-  console.log("New Total= " + currentScore);
+  console.log("New currentScore= " + currentScore);
   $(".totalScoreboard").text(currentScore);
-  //sets win/lose conditions
+
   if (currentScore == Random) {
     excelsior();
-  } else if (userTotal > Random) {
+  } else if (currentScore > Random) {
     endIsNear();
   }
 });
+
+$(".stone2").on("click", function() {
+    currentScore = currentScore + stone2;
+    console.log("New currentScore= " + currentScore);
+    $(".totalScoreboard").text(currentScore);
+  
+    if (currentScore == Random) {
+      excelsior();
+    } else if (currentScore > Random) {
+      endIsNear();
+    }
+  });
+
+  $(".stone3").on("click", function() {
+    currentScore = currentScore + stone3;
+    console.log("New currentScore= " + currentScore);
+    $(".totalScoreboard").text(currentScore);
+  
+    if (currentScore == Random) {
+      excelsior();
+    } else if (currentScore > Random) {
+      endIsNear();
+    }
+  });
+
+  $(".stone4").on("click", function() {
+    currentScore = currentScore + stone4;
+    console.log("New currentScore= " + currentScore);
+    $(".totalScoreboard").text(currentScore);
+  
+    if (currentScore == Random) {
+      excelsior();
+    } else if (currentScore > Random) {
+      endIsNear();
+    }
+  });
