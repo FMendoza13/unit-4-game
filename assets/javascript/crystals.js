@@ -30,3 +30,16 @@ $( document ).ready(function() {
         $('#totalScoreboard').text(userTotal);
         } 
     
+        function excelsior(){
+            alert("Excelsior!");
+              wins++; 
+              $('#wins').text(wins);
+              reset();
+            }
+
+        function endIsNear() {
+            alert("THE END IS NEAR!");
+            losses++;
+            $('#losses').text(losses);
+            reset();
+        }
