@@ -1,17 +1,66 @@
 
-div {
+body {
+    background-image: url('../images/thanos2.png');
+    background-size: cover;
+}
+
+.header {
+    font-size: 30pt;
     border: 1px solid gold;
-    align: center;
+}
+
+div{
+    color: whitesmoke; 
+    border: 1px solid gold;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    width: 40%;
+    padding: 10px;
+
 }
 
 span {
-    border: 1px solid midnightblue;
+    /* border: 1px solid greenyellow; */
+    background-color: orange;
 }
 
 
 .rules {
     padding :10px;
     background-color:purple;
+}
+
+.magicNumber {
+    background-color: orange;
+}
+
+.stone1 {
+    background-image: url('../images/space3.gif');
+    background-size: cover;
+    height: 30px;
+    margin: 10px;
+}
+
+.stone2 {
+    background-image: url('../images/reality1.gif');
+    background-size: cover;
+    height: 30px;
+    margin: 10px;
+}
+
+.stone3 {
+    background-image: url('../images/power1.gif');
+    background-size: cover;
+    height: 30px;
+    margin: 10px;
 
 }
 
+.stone4 {
+    background-image: url('../images/mind.gif');
+    background-size: cover;
+    height: 30px;
+    margin: 10px;
+
+}

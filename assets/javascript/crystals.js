@@ -3,10 +3,10 @@ var Random = Math.floor(Math.random() * 101) + 19;
 $(".magicNumber").text(Random);
 
 
-var stone1 = Math.floor(Math.random() * 11) + 1;
-var stone2 = Math.floor(Math.random() * 11) + 1;
-var stone3 = Math.floor(Math.random() * 11) + 1;
-var stone4 = Math.floor(Math.random() * 11) + 1;
+var stone1 = Math.floor(Math.random() * 13) + 1;
+var stone2 = Math.floor(Math.random() * 13) + 1;
+var stone3 = Math.floor(Math.random() * 13) + 1;
+var stone4 = Math.floor(Math.random() * 13) + 1;
 
 var currentScore = 0;
 var wins = 0;
@@ -19,12 +19,12 @@ function reset() {
   Random = Math.floor(Math.random() * 101) + 19;
   console.log(Random);
   $(".magicNumber").text(Random);
-  stone1 = Math.floor(Math.random() * 11) + 1;
-  stone2 = Math.floor(Math.random() * 11) + 1;
-  stone3 = Math.floor(Math.random() * 11) + 1;
-  stone4 = Math.floor(Math.random() * 11) + 1;
+  stone1 = Math.floor(Math.random() * 13) + 1;
+  stone2 = Math.floor(Math.random() * 13) + 1;
+  stone3 = Math.floor(Math.random() * 13) + 1;
+  stone4 = Math.floor(Math.random() * 13) + 1;
   currentScore = 0;
-  $("#totalScoreboard").text(currentScore);
+  $(".totalScoreboard").text(currentScore);
 }
 
 function excelsior() {
