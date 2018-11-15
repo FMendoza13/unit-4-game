@@ -1,15 +1,17 @@
 
 div {
-    border: 1px solid red;
+    border: 1px solid gold;
+    align: center;
 }
 
 span {
-    border: 1px solid aquamarine;
+    border: 1px solid midnightblue;
 }
 
 
 .rules {
     padding :10px;
-    background-color: green;
+    background-color:purple;
+
 }
 
