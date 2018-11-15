@@ -28,14 +28,14 @@ function reset() {
 }
 
 function excelsior() {
- alert("Excelsior!");
+ alert("EXCELSIOR!");
   wins++;
   $(".wins").text(wins);
   reset();
 }
 
 function endIsNear() {
- alert("THE END IS NEAR!");
+ alert("THE END IS NEAR! *SNAP*");
   losses++;
   $(".losses").text(losses);
   reset();
