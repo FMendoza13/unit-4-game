@@ -15,7 +15,7 @@ Whomever needs to see my code just needs a Visual Source Code program, along wit
 Fernando Mendoza
 
 # Contributors
-Jerome Chenette
-Sasha Patsel
-Jimmy Tu
-Jacob Moore (Helped me debug my Javascript)
+- Jerome Chenette
+- Sasha Patsel
+- Jimmy Tu
+- Jacob Moore (Helped me debug my Javascript)
